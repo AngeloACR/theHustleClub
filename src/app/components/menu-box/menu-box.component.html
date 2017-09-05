@@ -1,0 +1,51 @@
+<div class="iconBox">
+	<a href="javascript:void(0);" (click)="oMenu()" >
+		<i class="fa fa-bars hIcon" [ngClass]="opBars" aria-hidden="true"></i>
+	</a>
+	<a href="javascript:void(0);" (click)="cMenu()" >
+		<i class="fa fa-close hIcon" [ngClass]="opClose" aria-hidden="true"></i>
+	</a>
+
+</div>
+
+<div class="menuBox" [ngClass]="aMenu">
+	<div class="navBox" [ngClass]="aMenu">		
+		<ul class="navList">
+			<li class="navElem">
+				<a href="#homeTag" (click)="cMenu()">
+				<p class="myFont">Home</p>
+				</a>		
+			</li>
+			<li class="navElem">
+				<a href="#qSomosTag" (click)="cMenu()">
+				<p class="myFont">Quienes Somos</p>
+				</a>		
+			</li>
+			<li class="navElem">
+				<a href="#qHacemosTag" (click)="cMenu()">
+				<p class="myFont">Que Hacemos</p>
+				</a>		
+			</li>
+			<li class="navElem">
+				<a href="#qMotivaTag" (click)="cMenu()">
+				<p class="myFont">Que Nos Motiva</p>
+				</a>		
+			</li>
+			<li class="navElem">
+				<a href="#hClubTag" (click)="cMenu()">
+				<p class="myFont">Hustle Club</p>
+				</a>		
+			</li>
+			<li class="navElem">
+				<a href="#mStoreTag" (click)="cMenu()">
+				<p class="myFont">Mini Tienda</p>
+				</a>		
+			</li>
+			<li class="navElem">
+				<a href="#contactTag" (click)="cMenu()">
+				<p class="myFont">Contacto</p>
+				</a>		
+			</li>
+		</ul>
+	</div>
+</div>

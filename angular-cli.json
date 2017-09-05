@@ -1,12 +1,12 @@
 {
   "project": {
     "version": "1.0.0-beta.28.3",
-    "name": "test-project"
+    "name": "the hustle club"
   },
   "apps": [
     {
       "root": "src",
-      "outDir": "dist",
+      "outDir": "../hustleServer/public",
       "assets": [
         "assets",
         "favicon.ico"

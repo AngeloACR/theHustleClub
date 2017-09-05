@@ -1,0 +1,97 @@
+.iconBox{
+	position: fixed;
+	top: 4%;
+	right: 3%;
+	z-index: 260;
+}
+
+.menuBox{
+	position: fixed;
+	right: 0;
+	width: 0;
+	height: 100%;
+	background-color: white;
+	z-index: 230;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+}
+
+.menuBox.aMenu{
+	width: 300px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+}
+
+
+.fa{
+	font-size: 27px;
+}
+
+.fa-bars{
+	color: white;
+}
+
+.fa-close{
+	color: black;
+}
+
+.fa.op0{
+  opacity:0;
+  z-index: 1;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+}
+
+.fa.op1{
+  opacity:1;
+  z-index: 10;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+}
+
+.hIcon{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.navBox{
+	position: absolute;
+	width: 0;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: right;
+  opacity:0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+}
+
+.navBox.aMenu{
+	width: 300px;
+  opacity:1;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+}
+
+.navList{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.navElem{
+	margin: 0;
+	padding: 7.5% 0 7.5% 0;
+	list-style-type: none;
+}
+
+.myFont{
+	color: grey;
+}

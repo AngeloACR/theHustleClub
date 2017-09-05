@@ -1,0 +1,18 @@
+.hClubBigBox{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url("assets/fondohustleclub.jpg");
+	background-position: center center;
+	z-index: 100;
+}
+
+.hClubImg{
+	position: absolute;
+	width: 30%;
+	bottom: 20%;
+	right: 5%;
+}
+
+.hClubSmallBox{
+}

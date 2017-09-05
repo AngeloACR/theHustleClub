@@ -1,0 +1,50 @@
+.qSomosBigBox{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #2f0c06;
+	z-index: 100;
+}
+
+.qSomosBox1{
+	position: absolute;
+	width: 90%;
+	height: 60%;
+	top: 20%;
+	bottom: 20%;
+}
+
+.qSomosBox2{
+	position: absolute;
+	width: 90%;
+	height: 60%;
+	top: 20%;
+	bottom: 20%;
+	left: 0;
+	z-index: 110;
+}
+
+.qSomosTextBox{
+	position: absolute;
+	right: 0;
+	text-align: right;
+	width: 25%;
+	height: 100%;
+	margin-right: 25px;
+}
+
+.qSomosText{
+	position: absolute;
+  	top: 50%;
+	margin: 0;
+  	transform: translateY(-50%);
+	color: white;
+}
+
+.qSomosImg{
+	position: absolute;
+	width: 40%;
+	left: 10%; 
+  	top: 45%;
+  	transform: translateY(-45%);
+}

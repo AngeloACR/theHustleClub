@@ -1,10 +1,10 @@
-import { TestProjectPage } from './app.po';
+import { TheHustleClubPage } from './app.po';
 
-describe('test-project App', function() {
-  let page: TestProjectPage;
+describe('the-hustle-club App', function() {
+  let page: TheHustleClubPage;
 
   beforeEach(() => {
-    page = new TestProjectPage();
+    page = new TheHustleClubPage();
   });
 
   it('should display message saying app works', () => {

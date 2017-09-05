@@ -1,0 +1,24 @@
+.navBox{
+	position: fixed;
+	right: 3%;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 200;
+}
+
+.navList{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.navElem{
+	margin: 50% 0 50% 0;
+	padding: 50% 0 50% 0;
+	list-style-type: none;	
+}
+
+.fa{
+	font-size: 7px;
+	color: grey;
+}
